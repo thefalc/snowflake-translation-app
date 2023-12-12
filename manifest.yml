@@ -1,0 +1,13 @@
+manifest_version: 1
+
+version:
+  name: V_1_0
+  comment: Translation app to demonstrate external API calls from a Native App.ß
+
+artifacts:
+  setup_script: scripts/setup.sql
+  readme: README.md
+
+configuration:
+  log_level: debug
+  trace_level: off
