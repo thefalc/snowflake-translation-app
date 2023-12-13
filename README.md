@@ -45,4 +45,6 @@ CALL snowflake_translation_app.code_schema.init_app(PARSE_JSON('{
     }'));
 
 SELECT snowflake_translation_app.code_schema.translate('Hello, World!', 'FR');
+SELECT snowflake_translation_app.code_schema.translate('Hello, World!', 'DE');
+SELECT snowflake_translation_app.code_schema.translate('Hello, World!', 'ZH');
 ```
